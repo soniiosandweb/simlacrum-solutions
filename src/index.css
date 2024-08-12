@@ -18,3 +18,13 @@ code {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Archivo", sans-serif;
 }
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.font-archivo{
+  font-family: "Archivo", sans-serif;
+}
+.text-gradient{
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
