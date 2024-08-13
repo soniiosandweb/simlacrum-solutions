@@ -4,7 +4,7 @@ import logo from '../../../assests/images/logo.png';
 
 const Header = () => {
     return(
-        <header className="px-3 lg:px-8 py-4 lg:py-6 bg-transparent text-white w-full absolute top-0 z-50">
+        <header className="px-3 lg:px-10 py-4 lg:py-6 bg-transparent text-white w-full absolute top-0 z-50">
             <div className="flex items-center">
                 <div className="w-1/3">
                     <NavLink to="/" reloadDocument={true}>

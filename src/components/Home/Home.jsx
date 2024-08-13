@@ -1,5 +1,7 @@
 import MetaData from "../Layouts/MetaData"
+import AboutSection from "./AboutSection/AboutSection"
 import Banner from "./Banner/Banner"
+import SimulationLabs from "./Services/SimulationLabs"
 
 const Home = () => {
     return(
@@ -10,6 +12,8 @@ const Home = () => {
             />
 
             <Banner />
+            <AboutSection />
+            <SimulationLabs />
         </>
     )
 }
