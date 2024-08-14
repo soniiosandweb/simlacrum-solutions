@@ -4,7 +4,7 @@ import Home from "./components/Home/Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/simlacrum'>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
