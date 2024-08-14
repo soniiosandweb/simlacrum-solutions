@@ -27,7 +27,7 @@ const SimulationLabs = () => {
                     <div className="w-full lg:w-1/3">
                         <LazyLoadImage
                             src={simulationLab}
-                            alt="About"
+                            alt="Simulation Labs"
                             className="w-full h-full object-cover lg:w-1/3 static lg:absolute top-0 left-0 pr-0 lg:pr-5"
                         />
                     </div>
@@ -43,8 +43,8 @@ const SimulationLabs = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-20">
                 {listPoints.map((item,i) => (
-                    <div className='w-full flex flex-col gap-5'>
-                        <h4 className="text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>
+                    <div className='w-full flex flex-col gap-5' key={i}>
+                        <h4 className="w-max text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>
                         <p className='opacity-60'>{item.text}</p>
                     </div>
                 ))}

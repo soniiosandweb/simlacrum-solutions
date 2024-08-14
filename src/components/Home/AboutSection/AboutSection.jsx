@@ -39,7 +39,7 @@ const AboutSection = () => {
                 <div className="w-full lg:w-2/5 grid grid-cols-2 gap-5 sm:gap-10">
                     {aboutNumbers.map((item,i) => (
                         <div className="flex flex-col gap-3 w-full sm:w-44" key={i}>
-                            <h3 className="text-6xl bg-gradient-to-b from-primary-darkBlue to-primary-blue font-semibold text-gradient">{item.number}</h3>
+                            <h3 className="w-max text-6xl bg-gradient-to-b from-primary-darkBlue to-primary-blue font-semibold text-gradient">{item.number}</h3>
                             <div className="h-px w-full bg-primary-grey opacity-10"></div>
                             <p className="text-primary-grey text-lg">{item.text}</p>
                         </div>
