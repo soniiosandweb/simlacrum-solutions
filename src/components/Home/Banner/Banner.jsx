@@ -10,7 +10,7 @@ const Banner = () => {
                         Revolutionizing Medical Training with 
                         <span className='bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient'> State-of-the-Art Simulation</span>
                     </h1>
-                    <p className='text-xl'>Empowering Healthcare Professionals to Excel</p>
+                    <p className='text-lg md: text-xl'>Empowering Healthcare Professionals to Excel</p>
                     <Link to="#" className='bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Explore Our Solutions</Link>
                 </div>
                 <p className='w-full lg:w-4/5'>Enhance your medical team's skills with our cutting-edge simulation technology. From realistic patient scenarios to advanced training modules, we offer the tools you need to deliver exceptional care.</p>

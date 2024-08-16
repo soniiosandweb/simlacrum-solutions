@@ -1,6 +1,7 @@
 import MetaData from "../Layouts/MetaData"
 import AboutSection from "./AboutSection/AboutSection"
 import Banner from "./Banner/Banner"
+import GetInTouch from "./GetInTouch/GetInTouch"
 import AnatomyModels from "./Services/AnatomyModels"
 import AnatomyTables from "./Services/AnatomyTables"
 import DentalSimulator from "./Services/DentalSimulator"
@@ -13,6 +14,7 @@ import SimulationLabs from "./Services/SimulationLabs"
 import SimulationSoftware from "./Services/SimulationSoftware"
 import StandardizedPatients from "./Services/StandardizedPatients"
 import VirtualTraining from "./Services/VirtualTraining"
+import WalkBotSection from "./WalkBotSection/WalkBotSection"
 
 const Home = () => {
     return(
@@ -36,6 +38,8 @@ const Home = () => {
             <HybridSimulations />
             <InSituSimulations />
             <MannequinBased />
+            <WalkBotSection />
+            <GetInTouch />
         </>
     )
 }

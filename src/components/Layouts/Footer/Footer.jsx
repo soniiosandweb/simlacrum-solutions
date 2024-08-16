@@ -97,16 +97,6 @@ const Footer = () => {
         }
     ]
 
-    const supportLinks = [
-        {
-            link: '/',
-            text: 'Carrers',
-        },
-        {
-            link: '/',
-            text: 'Online Chat',
-        }
-    ]
 
     const privacyLinks = [
         {
@@ -139,7 +129,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="w-full lg:w-2/3 flex flex-col sm:flex-row flex-wrap">
-                    <div className='w-full sm:w-1/2 md:w-1/4 flex flex-col gap-5 pr-5 pb-5'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 flex flex-col gap-5 pr-5 pb-5'>
                         <h6 className='text-primary-blue font-bold'>General</h6>
                         <ul className='flex flex-col gap-2'>
                             {generalLinks.map((item,i) => (
@@ -149,7 +139,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className='w-full sm:w-1/2 md:w-1/4 flex flex-col gap-5 pr-5 pb-5'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 flex flex-col gap-5 pr-5 pb-5'>
                         <h6 className='text-primary-blue font-bold'>Services</h6>
                         <ul className='flex flex-col gap-2'>
                             {servicesLinks.map((item,i) => (
@@ -159,7 +149,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className='w-full sm:w-1/2 md:w-1/4 flex flex-col gap-5 pr-5 pb-5'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 flex flex-col gap-5 pr-5 pb-5'>
                         <h6 className='text-primary-blue font-bold'>Services</h6>
                         <ul className='flex flex-col gap-2'>
                             {servicesLinks2.map((item,i) => (
@@ -169,16 +159,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className='w-full sm:w-1/2 md:w-1/4 flex flex-col gap-5 pr-5 pb-5'>
-                        <h6 className='text-primary-blue font-bold'>Support</h6>
-                        <ul className='flex flex-col gap-2'>
-                            {supportLinks.map((item,i) => (
-                                <li key={i}>
-                                    <NavLink to={item.link} className="hover:text-primary-blue text-sm">{item.text}</NavLink>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
             <div className='flex flex-col md:flex-row max-w-6xl mx-auto py-5 gap-2.5 md:gap-5 border-t border-[#A7A7A7]'>
