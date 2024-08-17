@@ -15,11 +15,11 @@ const AboutSection = () => {
         },
         {
             number: "99%",
-            text: "Accurate Simulator’s",
+            text: "Accurate Simulator's",
         },
         {
             number: "30k+",
-            text: "Satisfied Customer’s",
+            text: "Satisfied Customer's",
         },
     ]
 
@@ -28,7 +28,7 @@ const AboutSection = () => {
 
             <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto items-center px-3 lg:px-10">
                 <div className="w-full lg:w-3/5">
-                    <h2 className="text-2xl md:text-4xl font-medium">Simlacrum Solutions is at the forefront of <span className="text-primary-darkBlue font-semibold">revolutionising clinical training</span> through state-of-the-art <span className="text-primary-darkBlue font-semibold">simulation technology</span>.</h2>
+                    <h2 className="text-2xl md:text-4xl font-medium">Simulacrum Solutions is at the forefront of <span className="text-primary-darkBlue font-semibold">revolutionising clinical training</span> through state-of-the-art <span className="text-primary-darkBlue font-semibold">simulation technology</span>.</h2>
                 </div>
                 <div className="w-full lg:w-2/5 text-left lg:text-right">
                     <Link to="#" className='bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Read More</Link>
