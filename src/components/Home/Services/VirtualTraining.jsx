@@ -24,7 +24,7 @@ const VirtualTraining = () => {
             <div className='relative bg-primary-grey'>
                 <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
-                    <div className="w-full lg:w-2/3 flex flex-col gap-5 items-start z-10">
+                    <div className="w-full lg:w-2/3 flex flex-col gap-5 items-start z-10 py-9">
                         <h3 className="text-3xl md:text-5xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">Virtual Reality Training</h3>
                         <p className='text-base md:text-lg opacity-60 text-white'>Immerse your team in lifelike clinical scenarios with our cutting-edge virtual reality (VR) training solutions. VR technology offers an unparalleled level of engagement and realism, allowing healthcare professionals to experience and react to complex situations in a risk-free environment. Our VR training modules cover a wide range of medical procedures and patient interactions, providing a valuable tool for continuous learning and improvement.</p>
                         <Link to="#" className='hidden bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Request For Free Demo</Link>

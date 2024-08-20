@@ -32,7 +32,7 @@ const StandardizedPatients = () => {
             <div className='relative bg-primary-grey'>
                 <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
-                    <div className="w-full lg:w-2/3 flex flex-col gap-5 items-start z-10">
+                    <div className="w-full lg:w-2/3 flex flex-col gap-5 items-start z-10 py-10">
                         <h3 className="text-3xl md:text-5xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">Standardized Patients (SPs)</h3>
                         <p className='text-base md:text-lg opacity-60 text-white'>Standardized Patients (SPs) are trained individuals who simulate real patient cases for the purpose of medical training. They provide students with realistic clinical encounters, allowing them to practice history-taking, physical examinations, and communication skills.</p>
                         <Link to="#" className='hidden bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Request For Free Demo</Link>
