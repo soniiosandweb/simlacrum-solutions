@@ -20,15 +20,15 @@ const VirtualTraining = () => {
     ]
 
     return(
-        <section className="home-VirtualTraining py-10">
+        <section className="home-VirtualTraining py-10" id="virtual_training">
             <div className='relative bg-primary-grey'>
-                <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center pr-3 pl-3 lg:pl-0 lg:pr-10 py-10 md:py-20">
+                <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
                     <div className="w-full lg:w-2/3 flex flex-col gap-5 items-start z-10">
                         <h3 className="text-3xl md:text-5xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">Virtual Reality Training</h3>
                         <p className='text-base md:text-lg opacity-60 text-white'>Immerse your team in lifelike clinical scenarios with our cutting-edge virtual reality (VR) training solutions. VR technology offers an unparalleled level of engagement and realism, allowing healthcare professionals to experience and react to complex situations in a risk-free environment. Our VR training modules cover a wide range of medical procedures and patient interactions, providing a valuable tool for continuous learning and improvement.</p>
-                        <Link to="#" className='bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Explore Our Solutions</Link>
-                        <p className='text-primary-textLight font-archivo text-150 opacity-10 absolute left-8 top-0 lg:top-auto bottom-auto lg:bottom-0 -z-10'>02</p>
+                        <Link to="#" className='hidden bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Request For Free Demo</Link>
+                        <p className='text-primary-textLight font-archivo text-150 opacity-10 absolute left-auto lg:left-8 right-8 lg:right-auto top-0 lg:top-auto bottom-auto lg:bottom-0 -z-10'>02</p>
                     </div>
                     <div className="w-full lg:w-1/3">
                         <LazyLoadImage
@@ -44,7 +44,7 @@ const VirtualTraining = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-20">
                 {listPoints.map((item,i) => (
                     <div className='w-full flex flex-col gap-5' key={i}>
-                        <h4 className="text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>
+                        <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>
                         <p className='opacity-60'>{item.text}</p>
                     </div>
                 ))}

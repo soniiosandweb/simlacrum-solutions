@@ -168,7 +168,7 @@ const WalkBotSection = () => {
     ]
 
     return(
-        <section className="home-walkbot-section pb-10">
+        <section className="home-walkbot-section pb-10 px-3" id="walkbot">
             <div className='max-w-6xl mx-auto px-3 lg:px-10 py-10 bg-primary-bg text-center'>
                 <LazyLoadImage
                     src={walkBotLogo}

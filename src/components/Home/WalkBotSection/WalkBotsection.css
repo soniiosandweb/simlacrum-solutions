@@ -1,5 +1,5 @@
 .tabs-content-block .tabs-panel {
-    padding: 24px 0;
+    padding: 24px 0 0;
 }
 .tabs-content-block .tabs-list-item {
     border: 1px solid #00000033;
@@ -8,6 +8,7 @@
     color: #35353580;
     text-transform: none;
     width: 100%;
+    max-width: 100%;
 }
 .tabs-content-block .tabs-list-item.Mui-selected{
     -webkit-background-clip: text;

@@ -10,7 +10,7 @@ const Header = () => {
                     <NavLink to="/" reloadDocument={true}>
                         <LazyLoadImage 
                             src={logo}
-                            alt="Simlacrum Solutions"
+                            alt="Simulacrum Solutions"
                         />
                     </NavLink>
                 </div>

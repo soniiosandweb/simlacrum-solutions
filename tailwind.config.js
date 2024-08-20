@@ -544,7 +544,7 @@ module.exports = {
       '3xl': '48rem',
       '4xl': '56rem',
       '5xl': '64rem',
-      '6xl': '1140px',
+      '6xl': '75rem',
       '7xl': '80rem',
       full: '100%',
       min: 'min-content',
@@ -810,6 +810,7 @@ module.exports = {
       screen: '100vw',
       min: 'min-content',
       max: 'max-content',
+      fit: 'fit-content',
     }),
     zIndex: {
       auto: 'auto',

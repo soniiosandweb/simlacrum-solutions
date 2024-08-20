@@ -20,7 +20,7 @@ const Home = () => {
     return(
         <>
             <MetaData 
-                title={"Simlacrum Solutions"}
+                title={"Simulacrum Solutions"}
                 description={"Revolutionizing Medical Training with State-of-the-Art Simulation"}
             />
 
