@@ -1,11 +1,12 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../../assests/images/logo.png";
 import logoBlack from '../../../assests/images/logo-black.png';
 import { useState } from "react";
 import { Box, Drawer } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
+import './Header.css';
 
 const Header = () => {
 
@@ -26,18 +27,18 @@ const Header = () => {
     },
     {
       name: "Contact",
-      redirect: "/contact",
+      redirect: "/contact-us",
     },
   ];
 
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)} className="py-5 md:py-10 px-3 md:px-5">
+    <Box role="presentation" onClick={toggleDrawer(false)} className="w-64 md:w-96 py-5 md:py-10 px-3 md:px-5">
         <div className="flex justify-end mb-5">
             <FontAwesomeIcon icon={faClose} className="text-2xl cursor-pointer" onClick={toggleDrawer(false)} />
         </div>
         <nav className="flex gap-5 flex-col">
             {menuLinks.map((item,i) => (
-                <Link smooth="true" to={item.redirect} key={i} className="text-md font-medium hover:text-primary-darkBlue header-nav-link" >{item.name}</Link>
+                <NavLink smooth="true" to={item.redirect} key={i} className="text-md font-medium hover:text-primary-darkBlue header-nav-link">{item.name}</NavLink>
             ))}
         </nav>
     </Box>
@@ -47,7 +48,7 @@ const Header = () => {
     <header className={`px-3 lg:px-10 py-4 lg:py-6 w-full top-0 z-50 ${locationValue[1] === "" ? 'bg-transparent text-white absolute' : 'bg-white text-black static' }`}>
       <div className="flex items-center">
         <div className="w-1/3">
-          <NavLink to="/" reloadDocument={true}>
+          <NavLink to="/" reloadDocument={true} className="w-fit block">
             <LazyLoadImage src={locationValue[1] === "" ? logo : logoBlack} alt="Simulacrum Solutions" />
           </NavLink>
         </div>

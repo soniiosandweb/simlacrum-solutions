@@ -1,4 +1,4 @@
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../../../assests/images/logo-white.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { faFacebookF, faInstagram, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -34,65 +34,65 @@ const Footer = () => {
             text: 'Home',
         },
         {
-            link: '/',
+            link: '/contact-us',
             text: 'Contact',
         }
     ]
 
     const servicesLinks = [
         {
-            link: '#simulation_labs',
+            link: '/#simulation_labs',
             text: 'Simulation Labs',
         },
         {
-            link: '#virtual_training',
+            link: '/#virtual_training',
             text: 'Virtual Reality Training',
         },
         {
-            link: '#simulation_software',
+            link: '/#simulation_software',
             text: 'Simulation Software',
         },
         {
-            link: '#simulation_equipment',
+            link: '/#simulation_equipment',
             text: 'Simulation Equipment',
         },
         {
-            link: '#dental_simulator',
+            link: '/#dental_simulator',
             text: 'Dental Simulator',
         },
         {
-            link: '#insitu_simulations',
+            link: '/#insitu_simulations',
             text: 'In Situ Simulations',
         },
         {
-            link: '#walkbot',
+            link: '/#walkbot',
             text: 'WalkBot',
         }
     ]
 
     const servicesLinks2 = [
         {
-            link: '#anatomy_tables',
+            link: '/#anatomy_tables',
             text: 'Anatomy Tables',
         },
         {
-            link: '#anatomy_models',
+            link: '/#anatomy_models',
             text: 'Anatomy Models',
         },
         {
-            link: '#standardized_patients',
+            link: '/#standardized_patients',
             text: 'Standardized Patients (SPs)',
         },
         {
-            link: '#haptic_simulators',
+            link: '/#haptic_simulators',
             text: 'Haptic Simulators',
         },
         {
-            link: '#hybrid_simulations',
+            link: '/#hybrid_simulations',
             text: 'Hybrid Simulations',
         },
         {
-            link: '#mannequin_based',
+            link: '/#mannequin_based',
             text: 'Mannequin-Based Simulations',
         }
     ]
@@ -113,7 +113,6 @@ const Footer = () => {
 
         if (location.hash) {
           const element = document.getElementById(location.hash.slice(1));
-          console.log(location.hash.slice(1))
           if (element) {
             // element.style.scrollMarginTop = '50px';
             element.scrollIntoView({ behavior: 'smooth'});
@@ -126,7 +125,7 @@ const Footer = () => {
         <footer className="bg-primary-darkBlue text-white px-3">
             <div className="flex flex-col lg:flex-row gap-10 max-w-6xl mx-auto pb-5 md:pb-8 pt-5 md:pt-14">
                 <div className="w-full lg:w-1/3 flex flex-col gap-5">
-                    <NavLink to="/" reloadDocument={true}>
+                    <NavLink to="/" reloadDocument={true} className="w-fit">
                         <LazyLoadImage 
                             src={logo}
                             alt="Simulacrum Solutions"
@@ -147,7 +146,7 @@ const Footer = () => {
                         <ul className='flex flex-col gap-2'>
                             {generalLinks.map((item,i) => (
                                 <li key={i}>
-                                    <NavLink to={item.link} className="hover:text-primary-blue text-sm">{item.text}</NavLink>
+                                    <NavLink to={item.link} reloadDocument={true} className="hover:text-primary-blue text-sm">{item.text}</NavLink>
                                 </li>
                             ))}
                         </ul>
@@ -157,7 +156,7 @@ const Footer = () => {
                         <ul className='flex flex-col gap-2'>
                             {servicesLinks.map((item,i) => (
                                 <li key={i}>
-                                    <Link smooth="true" to={item.link} className="hover:text-primary-blue text-sm">{item.text}</Link>
+                                    <NavLink smooth="true" to={item.link} className="hover:text-primary-blue text-sm">{item.text}</NavLink>
                                 </li>
                             ))}
                         </ul>
@@ -167,7 +166,7 @@ const Footer = () => {
                         <ul className='flex flex-col gap-2'>
                             {servicesLinks2.map((item,i) => (
                                 <li key={i}>
-                                    <Link to={item.link} className="hover:text-primary-blue text-sm">{item.text}</Link>
+                                    <NavLink to={item.link} className="hover:text-primary-blue text-sm">{item.text}</NavLink>
                                 </li>
                             ))}
                         </ul>

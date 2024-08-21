@@ -7,7 +7,7 @@ const PageNotFound = () => {
         <>
             <MetaData title={"Page Not Found - Simulacrum Solutions"} />
 
-            <section className="max-w-5xl m-auto py-14 px-2.5 text-center flex flex-col gap-5">
+            <section className="max-w-6xl m-auto py-14 px-2.5 text-center flex flex-col gap-5">
                 <h3 className="w-fit mx-auto text-8xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient pt-1 text-center">404</h3>
                 <p className="text-2xl">Oops! That page can't be found.</p>
                 <div className="w-20 h-1 bg-black m-auto"></div>
