@@ -35,7 +35,7 @@ const AboutSection = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto items-center pr-3 lg:pr-0 pl-3 xl:pl-10 pt-20">
+            <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto items-center pr-3 lg:pr-0 pl-3 xl:pl-10 pt-10 lg:pt-20">
                 <div className="w-full lg:w-2/5 grid grid-cols-2 gap-5 sm:gap-10">
                     {aboutNumbers.map((item,i) => (
                         <div className="flex flex-col gap-3 w-full sm:w-44" key={i}>

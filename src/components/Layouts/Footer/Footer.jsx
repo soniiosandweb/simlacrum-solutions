@@ -100,11 +100,11 @@ const Footer = () => {
 
     const privacyLinks = [
         {
-            link: '/',
+            link: '/privacy-policy',
             text: 'Privacy Policy',
         },
         {
-            link: '/',
+            link: '/terms-conditions',
             text: 'Term of use',
         }
     ]
@@ -114,7 +114,7 @@ const Footer = () => {
         if (location.hash) {
           const element = document.getElementById(location.hash.slice(1));
           if (element) {
-            // element.style.scrollMarginTop = '50px';
+            element.style.scrollMarginTop = '0px';
             element.scrollIntoView({ behavior: 'smooth'});
             // window.scrollTo({ top: element.offsetTop, behavior: 'smooth'});
           }
@@ -123,7 +123,7 @@ const Footer = () => {
 
     return(
         <footer className="bg-primary-darkBlue text-white px-3">
-            <div className="flex flex-col lg:flex-row gap-10 max-w-6xl mx-auto pb-5 md:pb-8 pt-5 md:pt-14">
+            <div className="flex flex-col lg:flex-row gap-10 max-w-6xl mx-auto pb-5 md:pb-8 pt-10 md:pt-14">
                 <div className="w-full lg:w-1/3 flex flex-col gap-5">
                     <NavLink to="/" reloadDocument={true} className="w-fit">
                         <LazyLoadImage 
@@ -141,7 +141,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="w-full lg:w-2/3 flex flex-col sm:flex-row flex-wrap">
-                    <div className='w-full sm:w-1/2 md:w-1/3 flex flex-col gap-5 pr-5 pb-5'>
+                    <div className='w-full sm:w-1/3 flex flex-col gap-2.5 md:gap-5 pr-5 pb-5'>
                         <h6 className='text-primary-blue font-bold'>General</h6>
                         <ul className='flex flex-col gap-2'>
                             {generalLinks.map((item,i) => (
@@ -151,7 +151,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className='w-full sm:w-1/2 md:w-1/3 flex flex-col gap-5 pr-5 pb-5'>
+                    <div className='w-full sm:w-1/3 flex flex-col gap-2.5 md:gap-5 pr-5 pb-5'>
                         <h6 className='text-primary-blue font-bold'>Services</h6>
                         <ul className='flex flex-col gap-2'>
                             {servicesLinks.map((item,i) => (
@@ -161,7 +161,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className='w-full sm:w-1/2 md:w-1/3 flex flex-col gap-5 pr-5 pb-5'>
+                    <div className='w-full sm:w-1/3 flex flex-col gap-2.5 md:gap-5 pr-5 pb-5'>
                         <h6 className='text-primary-blue font-bold'>Services</h6>
                         <ul className='flex flex-col gap-2'>
                             {servicesLinks2.map((item,i) => (
@@ -181,7 +181,7 @@ const Footer = () => {
                 <div className='w-full md:w-1/2'>
                     <ul className='flex justify-center md:justify-end gap-5'>
                         {privacyLinks.map((item, i) => (
-                            <li key={i}><NavLink to={item.link} className="hover:text-primary-blue text-sm">{item.text}</NavLink></li>
+                            <li key={i}><NavLink to={item.link} reloadDocument={true} className="hover:text-primary-blue text-sm">{item.text}</NavLink></li>
                         ))}
                     </ul>
                 </div>

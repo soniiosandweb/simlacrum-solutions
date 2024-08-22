@@ -28,7 +28,7 @@ const MannequinBased = () => {
     ]
 
     return(
-        <section className="home-MannequinBased py-10" id="mannequin_based">
+        <section className="home-MannequinBased pb-20" id="mannequin_based">
             <div className='relative bg-primary-grey'>
                 <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
@@ -49,7 +49,7 @@ const MannequinBased = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-10 md:pt-20">
                 {listPoints.map((item,i) => (
                     <div className='w-full flex flex-col gap-5' key={i}>
                         <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>

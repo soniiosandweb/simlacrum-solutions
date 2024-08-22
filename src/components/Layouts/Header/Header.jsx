@@ -47,13 +47,13 @@ const Header = () => {
   return (
     <header className={`px-3 lg:px-10 py-4 lg:py-6 w-full top-0 z-50 ${locationValue[1] === "" ? 'bg-transparent text-white absolute' : 'bg-white text-black static' }`}>
       <div className="flex items-center">
-        <div className="w-1/3">
+        <div className="w-1/2">
           <NavLink to="/" reloadDocument={true} className="w-fit block">
             <LazyLoadImage src={locationValue[1] === "" ? logo : logoBlack} alt="Simulacrum Solutions" />
           </NavLink>
         </div>
-        <div className="w-2/3">
-          <div className="w-max ml-auto flex items-center gap-2.5 justify-end cursor-pointer" onClick={toggleDrawer(true)}>
+        <div className="w-1/2">
+          <div className="w-fit ml-auto flex items-center gap-2.5 justify-end cursor-pointer" onClick={toggleDrawer(true)}>
             <div className="flex flex-col gap-1.5">
               <span className={`w-12 h-0.5 ${locationValue[1] === "" ? 'bg-primary-bg' : 'bg-black' }`}></span>
               <span className={`w-7 h-0.5 ml-auto ${locationValue[1] === "" ? 'bg-primary-bg' : 'bg-black' }`}></span>

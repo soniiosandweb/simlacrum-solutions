@@ -28,7 +28,7 @@ const HapticSimulators = () => {
     ]
 
     return(
-        <section className="home-HapticSimulators py-10" id="haptic_simulators">
+        <section className="home-HapticSimulators pb-20" id="haptic_simulators">
             <div className='relative bg-primary-bg'>
                 <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
@@ -43,13 +43,13 @@ const HapticSimulators = () => {
                     <div className="w-full lg:w-2/3 flex flex-col gap-5 items-start z-10">
                         <h3 className="text-3xl md:text-5xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">Haptic Simulators</h3>
                         <p className='text-base md:text-lg opacity-60'>Haptic simulators use advanced technology to provide tactile feedback during simulated procedures. These simulators enhance the learning experience by allowing users to feel the resistance and texture of tissues, improving their manual skills and dexterity.</p>
-                        <Link to="#" className='bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Request For Free Demo</Link>
+                        <Link to="/contact-us" reloadDocument={true} className='bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Request For Free Demo</Link>
                         <p className='text-primary-textLight font-archivo text-150 opacity-60 absolute right-8 bottom-0 -z-10'>09</p>
                     </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-10 md:pt-20">
                 {listPoints.map((item,i) => (
                     <div className='w-full flex flex-col gap-5' key={i}>
                         <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>

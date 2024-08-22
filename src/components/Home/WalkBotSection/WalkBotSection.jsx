@@ -204,7 +204,7 @@ const WalkBotSection = () => {
                                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mt-10'>
                                     {item.lists.map((item,i) => (
                                         <div className='w-full flex flex-col gap-5 text-left' key={i}>
-                                            <h4 className="w-max text-lg md:text-xl font-semibold text-primary-grey">{item.title}</h4>
+                                            <h4 className="w-fit text-lg md:text-xl font-semibold text-primary-grey">{item.title}</h4>
                                             <p className='text-base md:text-lg opacity-60'>{item.text}</p>
                                         </div>
                                     ))}

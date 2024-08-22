@@ -193,7 +193,6 @@ const EnquireForm = ({title, setOpen}) => {
                         name="message"
                         placeholder="Your Message"
                         className="text-md form-input border border-gray-300 w-full px-3.5 py-2 bg-white"
-                        required
                         rows={5}
                         value={message}
                         onChange={(e) => MessageChange(e)}

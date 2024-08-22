@@ -28,7 +28,7 @@ const AnatomyTables = () => {
     ]
 
     return(
-        <section className="home-AnatomyTables py-10" id="anatomy_tables">
+        <section className="home-AnatomyTables pb-20" id="anatomy_tables">
             <div className='relative bg-primary-grey'>
                 <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
@@ -49,7 +49,7 @@ const AnatomyTables = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 w-full max-w-6xl mx-auto px-3 pt-10 md:pt-20">
                 {listPoints.map((item,i) => (
                     <div className='w-full flex flex-col gap-5' key={i}>
                         <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">{item.title}</h4>

@@ -35,8 +35,7 @@ const Contact = () => {
                         </div>
                         <div className="flex-1 flex flex-col gap-2.5">
                             <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient mb-2.5">Adress Details</h4>
-                            <p className='opacity-60'>SCO 30, First Floor, Near Devaji Plaza,
-                            VIP Road, Zirakpur, PB (India).</p>
+                            <p className='text-primary-grey'>SCO 30, First Floor, Near Devaji Plaza, VIP Road, Zirakpur, PB (India)</p>
                         </div>
                     </div>
 
@@ -46,7 +45,7 @@ const Contact = () => {
                         </div>
                         <div className="flex-1 flex flex-col gap-2.5">
                             <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient mb-2.5">Email Address</h4>
-                            <p className='opacity-60'><a href="mailto:info@simulacrum.com">info@simulacrum.com</a></p>
+                            <p className='text-primary-grey'><a href="mailto:info@simulacruminc.com">info@simulacruminc.com</a></p>
                         </div>
                     </div>
 
@@ -56,7 +55,7 @@ const Contact = () => {
                         </div>
                         <div className="flex-1 flex flex-col gap-2.5">
                             <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient mb-2.5">Phone Number</h4>
-                            <p className='opacity-60'><a href="tel:+919915841204">+91 9915841204</a></p>
+                            <p className='text-primary-grey'><a href="tel:+919915841204">+91 9915841204</a></p>
                         </div>
                     </div>
 
@@ -77,8 +76,7 @@ const Contact = () => {
             <section className="contact-form-section py-10 md:py-20 px-3">
                 <div className='flex flex-col md:max-w-6xl lg:max-w-4xl mx-auto gap-5'>
                     <h3 className="text-3xl md:text-5xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient mx-auto">Write Us</h3>
-                    <p className='text-base md:text-lg opacity-60'>We are always happy to be of service to you. Be sure to
-                    listen to the prompt to help direct you to the right person.</p>
+                    <p className='text-primary-grey text-base md:text-lg'>We are always happy to be of service to you. Be sure to listen to the prompt to help direct you to the right person.</p>
                     <EnquireForm />
                 </div>
             </section>

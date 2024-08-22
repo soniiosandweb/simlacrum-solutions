@@ -10,6 +10,9 @@
     width: 100%;
     max-width: 100%;
 }
+.tabs-content-block .tabs-list-item .MuiTouchRipple-root{
+    display: none !important;
+}
 .tabs-content-block .tabs-list-item.Mui-selected{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
