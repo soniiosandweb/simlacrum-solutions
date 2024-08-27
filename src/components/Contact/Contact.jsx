@@ -45,7 +45,7 @@ const Contact = () => {
                         </div>
                         <div className="flex-1 flex flex-col gap-2.5">
                             <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient mb-2.5">Email Address</h4>
-                            <p className='text-primary-grey'><a href="mailto:info@simulacruminc.com">info@simulacruminc.com</a></p>
+                            <p className='text-primary-grey'><a href="mailto:contact@simulacrumsolutions.com">contact@simulacrumsolutions.com</a></p>
                         </div>
                     </div>
 

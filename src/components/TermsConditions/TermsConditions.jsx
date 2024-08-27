@@ -64,7 +64,7 @@ const TermsConditions = () => {
 
 
                     <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">12. Contact Information</h4>
-                    <p>If you have any questions or concerns about these Terms, please contact us at <a href="mailto:info@simulacruminc.com" className="text-primary-darkBlue">info@simulacruminc.com</a> or <a href="tel:+919915841204" className="text-primary-darkBlue">+91 9915841204</a>.</p>
+                    <p>If you have any questions or concerns about these Terms, please contact us at <a href="mailto:contact@simulacrumsolutions.com" className="text-primary-darkBlue">contact@simulacrumsolutions.com</a> or <a href="tel:+919915841204" className="text-primary-darkBlue">+91 9915841204</a>.</p>
 
                 </div>
             </section>

@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
 
                     <h4 className="w-fit text-xl md:text-2xl bg-gradient-to-r from-primary-blue to-primary-darkBlue font-semibold text-gradient">9. Contact Us</h4>
                     <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-                    <p>Email: <a href="mailto:info@simulacruminc.com" className="text-primary-darkBlue">info@simulacruminc.com</a></p>
+                    <p>Email: <a href="mailto:contact@simulacrumsolutions.com" className="text-primary-darkBlue">contact@simulacrumsolutions.com</a></p>
                     <p>Phone: <a href="tel:+919915841204" className="text-primary-darkBlue">+91 9915841204</a></p>
                     <p>Address: SCO 30, First Floor, Near Devaji Plaza, VIP Road, Zirakpur, PB (India)</p>
 

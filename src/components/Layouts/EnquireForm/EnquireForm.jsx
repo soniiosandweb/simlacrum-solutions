@@ -38,7 +38,7 @@ const EnquireForm = ({title, setOpen}) => {
 
         axios({
             method: "post",
-            url: "https://simulacruminc.com/api/enquire-us-api.php",
+            url: "https://simulacrumsolutions.com/api/enquire-us-api.php",
             data: JSON.stringify({
                     name: name,
                     mobileNumber: mobileNumber,
