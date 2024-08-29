@@ -1,7 +1,7 @@
 import MetaData from "../Layouts/MetaData";
 import bannerImg from '../../assests/images/home/banner.png';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHouseChimney, faPhone } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faEnvelope, faHouseChimney, faPhone } from "@fortawesome/free-solid-svg-icons";
 import EnquireForm from "../Layouts/EnquireForm/EnquireForm";
 
 const Contact = () => {
@@ -27,7 +27,7 @@ const Contact = () => {
             </section>
 
             {/* Contact Details */}
-            <section className="contact-details-section py-10 md:py-20 px-3">
+            {/* <section className="contact-details-section py-10 md:py-20 px-3">
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 w-full max-w-6xl mx-auto'>
                     <div className='w-full flex flex-row gap-5'>
                         <div className="w-16 h-16 rounded-full shadow-lg shadow-gray-300 flex items-center justify-center">
@@ -60,10 +60,10 @@ const Contact = () => {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
             {/* Location Map */}
-            <section className="contact-location-map">
+            {/* <section className="contact-location-map">
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1716.4102441698567!2d76.81414113866855!3d30.639016301418984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390febb6e807f311%3A0xc50d2602a9b185e5!2sIosAndWeb%20Technologies!5e0!3m2!1sen!2sus!4v1724221936603!5m2!1sen!2sus" 
                     title="SCO 30, First Floor, Near Devaji Plaza, VIP Road, Zirakpur, PB (India)" 
@@ -71,7 +71,7 @@ const Contact = () => {
                     width="100%"
                     height="450"
                 ></iframe>
-            </section>
+            </section> */}
 
             <section className="contact-form-section py-10 md:py-20 px-3">
                 <div className='flex flex-col md:max-w-6xl lg:max-w-4xl mx-auto gap-5'>
