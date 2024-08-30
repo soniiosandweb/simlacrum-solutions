@@ -1,4 +1,3 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import anatomyModels from '../../../assests/images/home/AnatomyModels.png';
 import { Link } from 'react-router-dom';
 
@@ -33,7 +32,7 @@ const AnatomyModels = () => {
                 <div className="flex flex-col lg:flex-row gap-5 w-full max-w-6xl mx-auto items-center px-3 py-10 md:py-20">
                     
                     <div className="w-full lg:w-1/3">
-                        <LazyLoadImage
+                        <img
                             src={anatomyModels}
                             alt="Anatomy Models"
                             className="w-full h-full object-cover lg:w-1/3 static lg:absolute top-0 left-0 pr-0 lg:pr-5"

@@ -1,5 +1,4 @@
 import './WalkBotsection.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import walkBotLogo from '../../../assests/images/home/walkbot-logo.png';
 import { useState } from 'react';
 import Box from '@mui/material/Box';
@@ -170,7 +169,7 @@ const WalkBotSection = () => {
     return(
         <section className="home-walkbot-section pb-10 px-3" id="walkbot">
             <div className='max-w-6xl mx-auto px-3 lg:px-10 py-10 bg-primary-bg text-center'>
-                <LazyLoadImage
+                <img
                     src={walkBotLogo}
                     alt='WalkBot'
                     className='mx-auto'

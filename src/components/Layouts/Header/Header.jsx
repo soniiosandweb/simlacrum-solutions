@@ -1,4 +1,3 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../../assests/images/logo.png";
 import logoBlack from '../../../assests/images/logo-black.png';
@@ -49,7 +48,7 @@ const Header = () => {
       <div className="flex items-center">
         <div className="w-1/2">
           <NavLink to="/" reloadDocument={true} className="w-fit block">
-            <LazyLoadImage src={locationValue[1] === "" ? logo : logoBlack} alt="Simulacrum Solutions" />
+            <img src={locationValue[1] === "" ? logo : logoBlack} alt="Simulacrum Solutions" />
           </NavLink>
         </div>
         <div className="w-1/2">

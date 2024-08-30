@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import aboutImg from '../../../assests/images/home/about-img.png';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutSection = () => {
 
@@ -27,12 +26,12 @@ const AboutSection = () => {
         <section className="home-about-section py-10 md:py-20" id="about">
 
             <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto items-center px-3 xl:px-10">
-                <div className="w-full lg:w-3/5">
+                <div className="w-full">
                     <h2 className="text-2xl md:text-4xl font-medium">Simulacrum Solutions is at the forefront of <span className="text-primary-darkBlue font-semibold">revolutionising clinical training</span> through state-of-the-art <span className="text-primary-darkBlue font-semibold">simulation technology</span>.</h2>
                 </div>
-                <div className="w-full lg:w-2/5 text-left lg:text-right">
+                {/* <div className="w-full lg:w-2/5 text-left lg:text-right">
                     <Link to="#" className='hidden bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Read More</Link>
-                </div>
+                </div> */}
             </div>
 
             <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto items-center pr-3 lg:pr-0 pl-3 xl:pl-10 pt-10 lg:pt-20">
@@ -46,7 +45,7 @@ const AboutSection = () => {
                     ))}
                 </div>
                 <div className="w-full lg:w-3/5">
-                    <LazyLoadImage
+                    <img
                         src={aboutImg}
                         alt="About"
                         className="w-full h-full object-cover"

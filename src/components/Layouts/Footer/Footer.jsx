@@ -1,6 +1,5 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../../../assests/images/logo-white.png';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { faFacebookF, faInstagram, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
@@ -126,7 +125,7 @@ const Footer = () => {
             <div className="flex flex-col lg:flex-row gap-10 max-w-6xl mx-auto pb-5 md:pb-8 pt-10 md:pt-14">
                 <div className="w-full lg:w-1/3 flex flex-col gap-5">
                     <NavLink to="/" reloadDocument={true} className="w-fit">
-                        <LazyLoadImage 
+                        <img 
                             src={logo}
                             alt="Simulacrum Solutions"
                         />

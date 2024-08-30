@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import womanImg from '../../../assests/images/home/WomanIn.png';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GetInTouch = () => {
     return(
@@ -12,7 +11,7 @@ const GetInTouch = () => {
                     <Link to="/contact-us" reloadDocument={true} className='bg-primary-darkBlue text-white py-3 px-6 text-md hover:bg-primary-blue'>Request For Free Demo</Link>
                 </div>
                 <div className="w-full md:w-1/2 relative md:-top-20 md:-mb-20">
-                    <LazyLoadImage
+                    <img
                         src={womanImg}
                         alt="Get In Touch"
                         className="w-auto md:w-full h-auto md:h-full object-cover mx-auto"
