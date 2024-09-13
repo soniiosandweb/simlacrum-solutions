@@ -62,11 +62,11 @@ const Footer = () => {
         {
             link: '/#insitu_simulations',
             text: 'In Situ Simulations',
-        },
-        {
-            link: '/#walkbot',
-            text: 'WalkBot',
         }
+        // {
+        //     link: '/#walkbot',
+        //     text: 'WalkBot',
+        // }
     ]
 
     const servicesLinks2 = [
