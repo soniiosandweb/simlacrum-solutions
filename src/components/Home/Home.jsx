@@ -14,7 +14,7 @@ import SimulationLabs from "./Services/SimulationLabs"
 import SimulationSoftware from "./Services/SimulationSoftware"
 import StandardizedPatients from "./Services/StandardizedPatients"
 import VirtualTraining from "./Services/VirtualTraining"
-import WalkBotSection from "./WalkBotSection/WalkBotSection"
+// import WalkBotSection from "./WalkBotSection/WalkBotSection"
 
 const Home = () => {
     return(
@@ -38,7 +38,7 @@ const Home = () => {
             <HybridSimulations />
             <InSituSimulations />
             <MannequinBased />
-            <WalkBotSection />
+            {/* <WalkBotSection /> */}
             <GetInTouch />
         </>
     )

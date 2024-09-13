@@ -1,4 +1,4 @@
-import simulationLab from '../../../assests/images/home/simulation-lab-img.png';
+import simulationLab from '../../../assests/images/home/simulation-lab-img.webp';
 import { Link } from 'react-router-dom';
 
 const SimulationLabs = () => {
