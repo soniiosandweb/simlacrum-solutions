@@ -1,19 +1,19 @@
 import MetaData from "../Layouts/MetaData"
-import AboutSection from "./AboutSection/AboutSection"
+// import AboutSection from "./AboutSection/AboutSection"
 import Banner from "./Banner/Banner"
-import GetInTouch from "./GetInTouch/GetInTouch"
-import AnatomyModels from "./Services/AnatomyModels"
-import AnatomyTables from "./Services/AnatomyTables"
-import DentalSimulator from "./Services/DentalSimulator"
-import HapticSimulators from "./Services/HapticSimulators"
-import HybridSimulations from "./Services/HybridSimulations"
-import InSituSimulations from "./Services/InSituSimulations"
-import MannequinBased from "./Services/MannequinBased"
-import SimulationEquipment from "./Services/SimulationEquipment"
-import SimulationLabs from "./Services/SimulationLabs"
-import SimulationSoftware from "./Services/SimulationSoftware"
-import StandardizedPatients from "./Services/StandardizedPatients"
-import VirtualTraining from "./Services/VirtualTraining"
+// import GetInTouch from "./GetInTouch/GetInTouch"
+// import AnatomyModels from "./Services/AnatomyModels"
+// import AnatomyTables from "./Services/AnatomyTables"
+// import DentalSimulator from "./Services/DentalSimulator"
+// import HapticSimulators from "./Services/HapticSimulators"
+// import HybridSimulations from "./Services/HybridSimulations"
+// import InSituSimulations from "./Services/InSituSimulations"
+// import MannequinBased from "./Services/MannequinBased"
+// import SimulationEquipment from "./Services/SimulationEquipment"
+// import SimulationLabs from "./Services/SimulationLabs"
+// import SimulationSoftware from "./Services/SimulationSoftware"
+// import StandardizedPatients from "./Services/StandardizedPatients"
+// import VirtualTraining from "./Services/VirtualTraining"
 // import WalkBotSection from "./WalkBotSection/WalkBotSection"
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
             />
 
             <Banner />
-            <AboutSection />
+            {/* <AboutSection />
             <SimulationLabs />
             <VirtualTraining />
             <SimulationSoftware />
@@ -38,8 +38,8 @@ const Home = () => {
             <HybridSimulations />
             <InSituSimulations />
             <MannequinBased />
-            {/* <WalkBotSection /> */}
-            <GetInTouch />
+            <WalkBotSection />
+            <GetInTouch /> */}
         </>
     )
 }
